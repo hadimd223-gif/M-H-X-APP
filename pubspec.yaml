@@ -1,0 +1,26 @@
+name: mhx_ads
+description: "A production-grade Flutter application supporting Google AdMob Banner, Interstitial, and Rewarded Ads."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Google Mobile Ads SDK for Flutter
+  # Supports Banner, Interstitial, Rewarded, Rewarded Interstitial, and Native Ads
+  google_mobile_ads: ^5.2.0
+
+  # Modern UI icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
